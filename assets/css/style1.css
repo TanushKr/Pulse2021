@@ -70,7 +70,7 @@ video{
     overflow-x: hidden;
 }
 
-@media (max-width: 400px) { 
+@media (max-width: 500px) { 
     .logosize img{
         max-height:50%; 
         max-width:50%;
