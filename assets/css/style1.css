@@ -80,4 +80,8 @@ video{
         position: relative;
         left: -100px;
     }
+
+    .p-0{
+        overflow-x: hidden;
+    }
  }
