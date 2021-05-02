@@ -57,3 +57,27 @@ video{
     padding-bottom: 10px;
 }
 
+.slider{
+    height: 100px;
+}
+
+.single-choose-item h6{
+    font-size: 25px;
+    font-weight: 800;
+    padding-top: 20px;
+}
+
+@media (max-width: 576px) { 
+    .logosize img{
+        max-height:50%; 
+        max-width:50%;
+        object-fit: contain;
+        position: relative;
+        left: -100px;
+    }
+
+    .slider-inner a{
+        position: relative;
+        left: -100px;
+    }
+ }
