@@ -67,7 +67,8 @@ video{
     padding-top: 20px;
 }
 
-@media (max-width: 576px) { 
+
+@media (max-width: 400px) { 
     .logosize img{
         max-height:50%; 
         max-width:50%;
