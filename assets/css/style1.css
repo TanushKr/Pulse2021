@@ -15,7 +15,9 @@
     max-width:100%;
     object-fit: contain;
 }
-
+.main::-webkit-scrollbar {
+    display: none;
+  }
 .dept{
     font-family: 'Lato', sans-serif;
     font-weight: 600 !important;
@@ -72,16 +74,16 @@ video{
 
 @media (max-width: 500px) { 
     .logosize img{
-        max-height:50%; 
-        max-width:50%;
+        max-height:40%; 
+        max-width:40%;
         object-fit: contain;
         position: relative;
-        left: -120px;
+        left: -160px;
     }
 
     .slider-inner a{
         position: relative;
-        left: -120px;
+        left: -160px;
     }
 
     .overflow{
