@@ -66,7 +66,9 @@ video{
     font-weight: 800;
     padding-top: 20px;
 }
-
+.overflow{
+    overflow-x: hidden;
+}
 
 @media (max-width: 400px) { 
     .logosize img{
@@ -74,15 +76,15 @@ video{
         max-width:50%;
         object-fit: contain;
         position: relative;
-        left: -100px;
+        left: -120px;
     }
 
     .slider-inner a{
         position: relative;
-        left: -100px;
+        left: -120px;
     }
 
-    .p-0{
+    .overflow{
         overflow-x: hidden;
     }
  }
